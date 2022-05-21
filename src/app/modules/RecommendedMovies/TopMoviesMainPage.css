@@ -1,0 +1,142 @@
+:root {
+    --color1: #708ed2;
+    --color2: #272532;
+    --color3: #ebe5e2;
+    --color4: #83cfdf;
+    --color5: #023c55;
+    --color6: #373b69;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  } 
+
+  .movie-card {
+    padding: 10px;
+  }
+  .movie-description {
+    background: var(--color5);
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  .movie-title {
+    color: var(--color3);
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .movie-vote {
+    background: var(--color2);
+    color: orange;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .movie-img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+    /* max-height: 100% !important; */
+    height: 400px;
+    width: 350px;
+  }
+  .orangetext {
+    color: orange;
+  }
+  .bgred {
+    background-color: rgb(124, 0, 0);
+  }
+   /* Hover Effect on movies Card */
+   .moviecontainer {
+    position: relative;
+    width: 50%;
+  }
+  .movie-card {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .hovermiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .moviecontainer:hover .movie-card {
+    opacity: 0.2
+  }
+  
+  .moviecontainer:hover .hovermiddle {
+    opacity: 1;
+  }
+  
+  .text {
+    opacity: 1;
+    background-color: rgb(124, 0, 0,1);
+    color: white;
+    font-size: 16px;
+    padding: 16px 16px;
+    border: none;
+    width: 150px;
+    
+  }
+  /* ************************ Pagination started ************************* */
+  /* numbers item */
+  .ant-pagination-item a {
+    border-color: rgb(77, 0, 0) !important;
+    background-color: rgb(124, 0, 0,1);
+    color: white !important;
+  }
+  .ant-pagination-item {
+    border-color: rgb(77, 0, 0) !important;
+    background-color: rgb(124, 0, 0,1);
+    color: white !important;
+  }
+
+  /* less than & greater than icon < > */
+  .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    border-color: rgb(77, 0, 0) !important;
+    background-color: rgb(124, 0, 0,1) !important;
+    color: white !important;
+  }
+
+  /* selector */
+  .ant-select-selector {
+    border-color: rgb(77, 0, 0) !important;
+    background-color: rgb(124, 0, 0,1) !important;
+    color: white !important;
+  }
+  .ant-select-item-option, .rc-virtual-list, .rc-virtual-list-holder, .rc-virtual-list-holder-inner {
+    border-color: rgb(77, 0, 0) !important;
+    background-color: rgb(124, 0, 0,1) !important;
+    color: white !important;
+  }
+ .ant-select-dropdown {
+    background-color: rgb(124, 0, 0,1) !important;
+    color: white !important;
+  }
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: rgb(124, 0, 0,1) !important;
+  color: white !important;
+}
+.anticon-down{
+  color: white  !important;
+}
+.ant-pagination-item-active{
+  border-color: rgb(77, 0, 0) !important;
+  border-color: goldenrod !important ;
+}
+.ant-pagination-item-link-icon, .ant-pagination-item-ellipsis{
+  border-color: rgb(77, 0, 0) !important;
+  border-color: goldenrod !important ;
+  color: white  !important;
+}
+
+  /* ************************ Pagination started ************************* */

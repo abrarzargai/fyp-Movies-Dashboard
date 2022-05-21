@@ -1,0 +1,113 @@
+#cinemaMain{
+    background-color: rgb(29, 29, 29) !important;
+}
+#cinemaDetailModel{
+    background-color: rgb(255, 255, 255) !important;
+}
+.cinemaDetail{
+    background-color: brown !important;
+}
+.cinemaNameHeading {
+    color: white !important;
+}
+.nomovieRecord{
+    background-color: rgb(29, 29, 29) !important;
+}
+#cinemaDetail,#cinemaDetail,.cinemaDetail{
+    background-color: rgba(29, 29, 29, 0.918) !important;
+    color: white !important;
+}
+.formbutton,.formbutton:hover   {
+    padding: 8px 25px;
+    background-color: brown;
+}
+/* .ant-modal,.ant-modal-body,.ant-modal-header, .ant-modal-footer  {
+    background-color: rgba(255, 255, 255, 0.776) !important;
+    color:  rgb(0, 0, 0) !important;
+}
+.modalforminput{
+    background-color: rgba(255, 255, 255, 0.776) !important;
+    color: rgb(0, 0, 0) !important;
+} */
+
+
+ .ant-modal-footer  {
+    /* background-color: rgb(86, 4, 4) !important; */
+ text-align: center !important;
+}
+.file {
+    position: relative;
+    overflow: hidden;
+    padding: 8px 40px !important;
+   margin-top: 30px !important;
+   font-size: 12px !important;
+   font-variant: normal !important;
+   margin-bottom: -20px;
+ 
+  }
+.fileinput {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+   
+  }
+  .uploadmessage{
+      margin-bottom: -20px;
+      margin-top: 10px;
+      
+  }
+  .Deletebuttonmovie{
+    bottom: 80px !important;
+  }
+
+  .selectGenreSearch{
+    height: calc(2em + 0.75rem + 2px);
+  }
+  .selectGenreSearchbutton{
+    height: calc(2.2em + 0.75rem + 2px);
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: rgb(69,0,0) !important;
+    border: black 1px solid;
+  }
+  .selectGenreSearchbutton:hover{
+    height: calc(2.2em + 0.75rem + 2px);
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: rgb(255, 251, 251) !important;
+    border: rgb(0, 0, 0) 1px solid;
+    color: rgb(0, 0, 0) !important;
+  }
+  .bgRedBtn{
+    background-color: rgb(69,0,0) !important;
+    border: black 1px solid;
+    color: white !important;
+  }
+  .bgRedBtn:hover{
+    background-color: rgb(255, 251, 251) !important;
+    border: rgb(0, 0, 0) 1px solid;
+    color: rgb(0, 0, 0) !important;
+  }
+  .cinemaimage{
+      height: auto !important;
+      width: 600px !important;
+  }
+  .cinemaimagemodel{
+      height: auto !important;
+      width: 600px !important;
+  }
+ .moviesdisplayList{
+
+     margin-top: -20px;
+     background-color: rgb(29, 29, 29) !important;
+ }
+ .row5, .row5 a {
+    color: #EAEAEA;
+    background-color: rgb(29, 29, 29) !important;   
+}
+.w3-padding-64 {
+    padding-top: 0px!important;     
+     padding-bottom: 0px!important;
+}
